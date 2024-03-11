@@ -11,16 +11,32 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        include:
+          - node-version: 12.x
+            legacy-node: true
+          - node-version: 14.x
+            legacy-node: true
+          - node-version: 16.x
+            legacy-node: true
+          - node-version: 18.x
+            legacy-node: false
+          - node-version: 20.x
+            legacy-node: false
+
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - run: yarn --frozen-lockfile --ignore-scripts --ignore-engines
+        if: ${{ matrix.legacy-node }}
       - run: yarn --frozen-lockfile --ignore-scripts
+        if: ${{ !matrix.legacy-node }}
       - run: yarn build
+        if: ${{ !matrix.legacy-node }}
       - run: yarn lint
+        if: ${{ !matrix.legacy-node }}
       - run: yarn test
   all-jobs-pass:
     name: All jobs pass
