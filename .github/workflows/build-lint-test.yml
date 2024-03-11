@@ -34,6 +34,7 @@ jobs:
       - run: yarn --frozen-lockfile --ignore-scripts
         if: ${{ !matrix.legacy-node }}
       - run: yarn build
+        if: ${{ !matrix.legacy-node }}
       - run: yarn lint
         if: ${{ !matrix.legacy-node }}
       - run: yarn test
