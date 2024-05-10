@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/safe-event-emitter",
+  "name": "@foobar/safe-event-emitter",
   "version": "3.1.1",
   "description": "An EventEmitter that isolates the emitter from errors in handlers",
   "main": "dist/cjs/index.js",
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/safe-event-emitter.git"
+    "url": "https://github.com/legobeat/safe-event-emitter.git"
   },
   "engines": {
     "node": ">=12.0.0"

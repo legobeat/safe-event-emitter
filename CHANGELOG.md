@@ -23,8 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Migrate to TypeScript ([#1](https://github.com/MetaMask/safe-event-emitter/pull/1))
 
-[Unreleased]: https://github.com/MetaMask/safe-event-emitter/compare/v3.1.1...HEAD
-[3.1.1]: https://github.com/MetaMask/safe-event-emitter/compare/v3.1.0...v3.1.1
-[3.1.0]: https://github.com/MetaMask/safe-event-emitter/compare/v3.0.0...v3.1.0
-[3.0.0]: https://github.com/MetaMask/safe-event-emitter/compare/v2.0.0...v3.0.0
-[2.0.0]: https://github.com/MetaMask/safe-event-emitter/releases/tag/v2.0.0
+[Unreleased]: https://github.com/legobeat/safe-event-emitter/compare/v3.1.1...HEAD
+[3.1.1]: https://github.com/legobeat/safe-event-emitter/compare/v3.1.0...v3.1.1
+[3.1.0]: https://github.com/legobeat/safe-event-emitter/compare/v3.0.0...v3.1.0
+[3.0.0]: https://github.com/legobeat/safe-event-emitter/compare/v2.0.0...v3.0.0
+[2.0.0]: https://github.com/legobeat/safe-event-emitter/releases/tag/v2.0.0
