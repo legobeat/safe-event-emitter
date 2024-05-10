@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.0.2]
+### Uncategorized
+- chore: revert upgrade to MetaMask/action-is-release@v2
+- 4.0.1 ([#6](https://github.com/legobeat/safe-event-emitter/pull/6))
+- update package name
+- chore: lint changelog
+- devDeps: add @metamask/auto-changelog@^2.6.1
+- chore(ci): add automated releasing and publishing
+- chore(ci): lint changelog
+- chore(ci): refactor out main.yml as entry-point
+- chore(ci): enable yarn caching
+- chore(ci): upgrade actions/setup-node from v1 to v3
+- update yarn.lock
+
 ## [4.0.1]
 ### Uncategorized
 - 4.0.0 ([#5](https://github.com/legobeat/safe-event-emitter/pull/5))
@@ -99,7 +113,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Migrate to TypeScript ([#1](https://github.com/MetaMask/safe-event-emitter/pull/1))
 
-[Unreleased]: https://github.com/legobeat/safe-event-emitter/compare/v4.0.1...HEAD
+[Unreleased]: https://github.com/legobeat/safe-event-emitter/compare/v4.0.2...HEAD
+[4.0.2]: https://github.com/legobeat/safe-event-emitter/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/legobeat/safe-event-emitter/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/legobeat/safe-event-emitter/compare/v3.1.1...v4.0.0
 [3.1.1]: https://github.com/legobeat/safe-event-emitter/compare/v3.1.0...v3.1.1
